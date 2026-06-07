@@ -18,7 +18,7 @@ A minimalist, high-fidelity local music player built with a modern **Expressive 
 ### Library Management View
 Browse all tracks on your local drive with clear track lengths and custom active highlights.
 <p align="center">
-  <img src="Screenshot_20260607-165813_ApolloExpressive.png" width="350" alt="Library View Screen">
+  <img src="https://github.com/bentleywagonjack/ApolloExpressive/issues/1#issue-4608731813" width="350" alt="Library View Screen">
 </p>
 
 ### Fully Immersive Playback Control
