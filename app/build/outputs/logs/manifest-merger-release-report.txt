@@ -1,0 +1,557 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/a37ae6cc5e692d4f271167051cbaeadd/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/020408fd0c07cdd32cec1b0bb2adf0ce/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/1e45fcbbf81438c273faf38b608ebee9/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/bd6f1782a5e1e4b50ba525c5835d9e24/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/76c49e501ab5a3a39c6dd0664a7f802a/transformed/navigation-compose-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-window-size-class-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/00e776c021d1971cd856e4dd1723d545/transformed/material3-window-size-class-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/cd2d07ffff25c2411eb2530ebe654a33/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddb8833cb9995adfe3ff8ba0210768d9/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a4079221e35f915373abeabec59ef23f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/8d6fff2940035ecaf90bb845dd9ab033/transformed/coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7e991c590599f9511f65c4d3c6dcfd71/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/42689275938b9bfc8732aff148f9f9e8/transformed/coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d107e62cde8ae6cd279be75ae9c8300b/transformed/coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a9ba9b7b2b033c00eddca0cc6697307a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/d3d14b2b71b474c740d197e7141be634/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/bentleywagonjack/.gradle/caches/transforms-3/99f54842782998c80e5eae3a8c42adc6/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/cf6b262d222cc2a31d9cab01112c7b69/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5c54e3f2ac738a7e678d87c8b994e4d6/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0fe645fbd5178ea1fe9241607551a6e/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fd9301da393e59fe6f1815b113998917/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/4ec09ec74303d6243d0313c91da797a5/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ce157a611ff5dbf0295427a92eafb272/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d8e66ea6b7ae4df801c53b6618753c97/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf04939e98523b1e51c19e335abb53e/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/985fc199a1d58feeb5c3240e513e1a5a/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/6091b57872453878e77a0b430e5b3edc/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7ccd559ef81a8ebefabf9c334ffabcbb/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/796ba72145ff44fcdcb92163db1574d9/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/efad7819799ef6ea594ddca24c30fcd1/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/584cb191f32d745cd3e674ec7e942195/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/9b0bbe92453e7bec49eeff598fb095be/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/97a886d3ddc766821c27504a51e4367a/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf30515bad90d7197867e9bee9d2b22/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e1691fb426dcc5d7978c41e185454c27/transformed/palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0ec5e03cc68466da7da2c09327a9976b/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fc44f70608db41cc90b126d7daaf85ba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0914dd71f56eb5f059586feeb0886dfb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/de9fd0ba58ab005ae60887bcda368996/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media3:media3-session:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/e7e2453b82be34de14624d7377e60bad/transformed/media3-session-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-ui:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fdf981843ebfe546e02844d8b8118e84/transformed/media3-ui-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/21f0bae74f17570caaf9ae7a910ee18c/transformed/media3-extractor-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/3e12646cd09e7b0bbe658cf6a8e9bd1f/transformed/media3-container-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/ee9d7cf3062b04a23d79795454cb49fd/transformed/media3-datasource-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/4bac8f7668c47f2297254c190878aff7/transformed/media3-decoder-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/78fc2cb1579b422c895b1c350f4d71fa/transformed/media3-database-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fd94bf89749527e0ceaad69dc81a0bff/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/b7d3eafe563191caa5545b260be27a45/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5ba726ea9d46e6b5c189d5bacc7f5715/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2e506c682ce4d536b42b2d4ae7bb3b49/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/615742aa10740ba9fad252c2641fb4c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] /home/bentleywagonjack/.gradle/caches/transforms-3/a4c96e3a23a5cc4f17b3e2645cf39cf0/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/113bf06fa73364c641fc700d5c2178ee/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2f53d8718081aa3e04b38bc504f8d66a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e4b5503581c77da7923f4efb7b9380ea/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/254cd977c634c3a83354715610f9b1ab/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/b952d10740fc75926de9b8266c0e0950/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1a5d124d77df6be8f7a1cea6adc52963/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/00d9e6e86214f189712147502b2ab775/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/2904e8c7d1e34e475142e3413b8d33c8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f38c155681d6748ae7152d457002e07/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/f29def4ec72192a9e277504794f013a5/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/bf0665a53ea87ab11672c46375ada386/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/723a79593754a68e7472ea0182a9c45d/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4eeebab4fd16e98b4fa044b0bacd22d6/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7ec1a309c7bc69c4747b3bbce8a32714/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/1ca13deef6a0a39b27dae12ddecda76e/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/565ae0a013413529237a61e4fe67af96/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4d00b025a7594a287e5b64b3a09363ff/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/3b55f43e067add249e09572b6e6f05c9/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7fee45aace886de3bb40ec86ede1d27c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/6981b8bb90dbdd13ad9a36613b6a07ce/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7c28d32a1d6228be2cb42cbc1f0b345f/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/a872dfa3c7d35024e5ddc0e845f0e7c1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/fc06f984eebf06d4bf1e930248549f98/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/22efb859583b41428a297f841524e158/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/34e0f95dc07167f11c38bcde2a2f292b/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/3d849b90830be2bcefb32e601fe5ae65/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/f68d73e03100afc34dec4537078a0f3c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ffb952ea49761f953f2af74eb7f53bce/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/45726999603ce81274af54b19ba04891/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dfe185aed265821bc885bdb384754280/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/974de7697713b183629b9beedbc3a435/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/62d0a86d6b4b1af1f912c1a95c60a64b/transformed/core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dad9f73d4d2236c7bf4ce7971b63920c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f295e1303f68eb1605b94c8c1679cf6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/780644559bfb442bffe77650d414af18/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/53371c8de975cfdc48f0c9916ff9d70b/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/80f5da65b461ba036fa5824d13a098f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/5e89fcfc281f261aacae3a3120128b20/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/bff6530f5241d3b73be4c5ce2ca55c2a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1dae613d07960ab9c4a72eef4cc6b517/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d163304de3335204fd2e204700929b2d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2ceea482fb5ba10b19bfe4efcfd498d6/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/316eb63da4ec5494dffacab8e1ce4811/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:5:5-75
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:5:22-72
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:8:5-92
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:8:22-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:11:22-74
+application
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:13:5-46:19
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:13:5-46:19
+MERGED from [com.google.android.material:material:1.12.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddb8833cb9995adfe3ff8ba0210768d9/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddb8833cb9995adfe3ff8ba0210768d9/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a4079221e35f915373abeabec59ef23f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a4079221e35f915373abeabec59ef23f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f295e1303f68eb1605b94c8c1679cf6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f295e1303f68eb1605b94c8c1679cf6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:20:9-54
+	android:enableOnBackInvokedCallback
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:14:9-34
+activity#com.bentleywagonjack.apolloexpressive.MainActivity
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:24:9-32:20
+	android:windowSoftInputMode
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:30:27-74
+service#com.bentleywagonjack.apolloexpressive.service.MusicPlaybackService
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:35:9-44:19
+	android:exported
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:37:13-36
+	android:foregroundServiceType
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:38:13-58
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:36:13-57
+intent-filter#action:name:android.media.browse.MediaBrowserService+action:name:androidx.media3.session.MediaLibraryService+action:name:androidx.media3.session.MediaSessionService
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:39:13-43:29
+action#androidx.media3.session.MediaSessionService
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:40:17-86
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:40:25-83
+action#androidx.media3.session.MediaLibraryService
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:41:17-86
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:41:25-83
+action#android.media.browse.MediaBrowserService
+ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:42:17-83
+	android:name
+		ADDED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:42:25-80
+uses-sdk
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/a37ae6cc5e692d4f271167051cbaeadd/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/a37ae6cc5e692d4f271167051cbaeadd/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/020408fd0c07cdd32cec1b0bb2adf0ce/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/020408fd0c07cdd32cec1b0bb2adf0ce/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/1e45fcbbf81438c273faf38b608ebee9/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/1e45fcbbf81438c273faf38b608ebee9/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/bd6f1782a5e1e4b50ba525c5835d9e24/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/bd6f1782a5e1e4b50ba525c5835d9e24/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/76c49e501ab5a3a39c6dd0664a7f802a/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/bentleywagonjack/.gradle/caches/transforms-3/76c49e501ab5a3a39c6dd0664a7f802a/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-window-size-class-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/00e776c021d1971cd856e4dd1723d545/transformed/material3-window-size-class-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-window-size-class-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/00e776c021d1971cd856e4dd1723d545/transformed/material3-window-size-class-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/cd2d07ffff25c2411eb2530ebe654a33/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/cd2d07ffff25c2411eb2530ebe654a33/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddb8833cb9995adfe3ff8ba0210768d9/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddb8833cb9995adfe3ff8ba0210768d9/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a4079221e35f915373abeabec59ef23f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a4079221e35f915373abeabec59ef23f/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/8d6fff2940035ecaf90bb845dd9ab033/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/8d6fff2940035ecaf90bb845dd9ab033/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7e991c590599f9511f65c4d3c6dcfd71/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7e991c590599f9511f65c4d3c6dcfd71/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/42689275938b9bfc8732aff148f9f9e8/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/42689275938b9bfc8732aff148f9f9e8/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d107e62cde8ae6cd279be75ae9c8300b/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d107e62cde8ae6cd279be75ae9c8300b/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a9ba9b7b2b033c00eddca0cc6697307a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/a9ba9b7b2b033c00eddca0cc6697307a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/d3d14b2b71b474c740d197e7141be634/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/d3d14b2b71b474c740d197e7141be634/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/bentleywagonjack/.gradle/caches/transforms-3/99f54842782998c80e5eae3a8c42adc6/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/bentleywagonjack/.gradle/caches/transforms-3/99f54842782998c80e5eae3a8c42adc6/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/cf6b262d222cc2a31d9cab01112c7b69/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/cf6b262d222cc2a31d9cab01112c7b69/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5c54e3f2ac738a7e678d87c8b994e4d6/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5c54e3f2ac738a7e678d87c8b994e4d6/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0fe645fbd5178ea1fe9241607551a6e/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0fe645fbd5178ea1fe9241607551a6e/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fd9301da393e59fe6f1815b113998917/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fd9301da393e59fe6f1815b113998917/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/4ec09ec74303d6243d0313c91da797a5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/4ec09ec74303d6243d0313c91da797a5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ce157a611ff5dbf0295427a92eafb272/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ce157a611ff5dbf0295427a92eafb272/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d8e66ea6b7ae4df801c53b6618753c97/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d8e66ea6b7ae4df801c53b6618753c97/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf04939e98523b1e51c19e335abb53e/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf04939e98523b1e51c19e335abb53e/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/985fc199a1d58feeb5c3240e513e1a5a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/985fc199a1d58feeb5c3240e513e1a5a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/6091b57872453878e77a0b430e5b3edc/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/6091b57872453878e77a0b430e5b3edc/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7ccd559ef81a8ebefabf9c334ffabcbb/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7ccd559ef81a8ebefabf9c334ffabcbb/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/796ba72145ff44fcdcb92163db1574d9/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/796ba72145ff44fcdcb92163db1574d9/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/efad7819799ef6ea594ddca24c30fcd1/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/efad7819799ef6ea594ddca24c30fcd1/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/584cb191f32d745cd3e674ec7e942195/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/584cb191f32d745cd3e674ec7e942195/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/9b0bbe92453e7bec49eeff598fb095be/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/9b0bbe92453e7bec49eeff598fb095be/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/97a886d3ddc766821c27504a51e4367a/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/bentleywagonjack/.gradle/caches/transforms-3/97a886d3ddc766821c27504a51e4367a/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf30515bad90d7197867e9bee9d2b22/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ddf30515bad90d7197867e9bee9d2b22/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e1691fb426dcc5d7978c41e185454c27/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e1691fb426dcc5d7978c41e185454c27/transformed/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0ec5e03cc68466da7da2c09327a9976b/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0ec5e03cc68466da7da2c09327a9976b/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fc44f70608db41cc90b126d7daaf85ba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/fc44f70608db41cc90b126d7daaf85ba/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0914dd71f56eb5f059586feeb0886dfb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/0914dd71f56eb5f059586feeb0886dfb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/de9fd0ba58ab005ae60887bcda368996/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/de9fd0ba58ab005ae60887bcda368996/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.media3:media3-session:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/e7e2453b82be34de14624d7377e60bad/transformed/media3-session-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/e7e2453b82be34de14624d7377e60bad/transformed/media3-session-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fdf981843ebfe546e02844d8b8118e84/transformed/media3-ui-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fdf981843ebfe546e02844d8b8118e84/transformed/media3-ui-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/21f0bae74f17570caaf9ae7a910ee18c/transformed/media3-extractor-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/21f0bae74f17570caaf9ae7a910ee18c/transformed/media3-extractor-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/3e12646cd09e7b0bbe658cf6a8e9bd1f/transformed/media3-container-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/3e12646cd09e7b0bbe658cf6a8e9bd1f/transformed/media3-container-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/ee9d7cf3062b04a23d79795454cb49fd/transformed/media3-datasource-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/ee9d7cf3062b04a23d79795454cb49fd/transformed/media3-datasource-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/4bac8f7668c47f2297254c190878aff7/transformed/media3-decoder-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/4bac8f7668c47f2297254c190878aff7/transformed/media3-decoder-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/78fc2cb1579b422c895b1c350f4d71fa/transformed/media3-database-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/78fc2cb1579b422c895b1c350f4d71fa/transformed/media3-database-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fd94bf89749527e0ceaad69dc81a0bff/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fd94bf89749527e0ceaad69dc81a0bff/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/b7d3eafe563191caa5545b260be27a45/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/b7d3eafe563191caa5545b260be27a45/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5ba726ea9d46e6b5c189d5bacc7f5715/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5ba726ea9d46e6b5c189d5bacc7f5715/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2e506c682ce4d536b42b2d4ae7bb3b49/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2e506c682ce4d536b42b2d4ae7bb3b49/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/615742aa10740ba9fad252c2641fb4c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/615742aa10740ba9fad252c2641fb4c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/bentleywagonjack/.gradle/caches/transforms-3/a4c96e3a23a5cc4f17b3e2645cf39cf0/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/bentleywagonjack/.gradle/caches/transforms-3/a4c96e3a23a5cc4f17b3e2645cf39cf0/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/113bf06fa73364c641fc700d5c2178ee/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/113bf06fa73364c641fc700d5c2178ee/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2f53d8718081aa3e04b38bc504f8d66a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2f53d8718081aa3e04b38bc504f8d66a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e4b5503581c77da7923f4efb7b9380ea/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e4b5503581c77da7923f4efb7b9380ea/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/254cd977c634c3a83354715610f9b1ab/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/254cd977c634c3a83354715610f9b1ab/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/b952d10740fc75926de9b8266c0e0950/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/b952d10740fc75926de9b8266c0e0950/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1a5d124d77df6be8f7a1cea6adc52963/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1a5d124d77df6be8f7a1cea6adc52963/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/00d9e6e86214f189712147502b2ab775/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/bentleywagonjack/.gradle/caches/transforms-3/00d9e6e86214f189712147502b2ab775/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/2904e8c7d1e34e475142e3413b8d33c8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/2904e8c7d1e34e475142e3413b8d33c8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f38c155681d6748ae7152d457002e07/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f38c155681d6748ae7152d457002e07/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/f29def4ec72192a9e277504794f013a5/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/f29def4ec72192a9e277504794f013a5/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/bf0665a53ea87ab11672c46375ada386/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/bf0665a53ea87ab11672c46375ada386/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/723a79593754a68e7472ea0182a9c45d/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/723a79593754a68e7472ea0182a9c45d/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4eeebab4fd16e98b4fa044b0bacd22d6/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4eeebab4fd16e98b4fa044b0bacd22d6/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7ec1a309c7bc69c4747b3bbce8a32714/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7ec1a309c7bc69c4747b3bbce8a32714/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/1ca13deef6a0a39b27dae12ddecda76e/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/1ca13deef6a0a39b27dae12ddecda76e/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/565ae0a013413529237a61e4fe67af96/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/565ae0a013413529237a61e4fe67af96/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4d00b025a7594a287e5b64b3a09363ff/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/4d00b025a7594a287e5b64b3a09363ff/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/3b55f43e067add249e09572b6e6f05c9/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/3b55f43e067add249e09572b6e6f05c9/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7fee45aace886de3bb40ec86ede1d27c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/7fee45aace886de3bb40ec86ede1d27c/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/6981b8bb90dbdd13ad9a36613b6a07ce/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/6981b8bb90dbdd13ad9a36613b6a07ce/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7c28d32a1d6228be2cb42cbc1f0b345f/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/7c28d32a1d6228be2cb42cbc1f0b345f/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/a872dfa3c7d35024e5ddc0e845f0e7c1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/a872dfa3c7d35024e5ddc0e845f0e7c1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/fc06f984eebf06d4bf1e930248549f98/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/fc06f984eebf06d4bf1e930248549f98/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/22efb859583b41428a297f841524e158/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/bentleywagonjack/.gradle/caches/transforms-3/22efb859583b41428a297f841524e158/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/34e0f95dc07167f11c38bcde2a2f292b/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/34e0f95dc07167f11c38bcde2a2f292b/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/3d849b90830be2bcefb32e601fe5ae65/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/3d849b90830be2bcefb32e601fe5ae65/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/f68d73e03100afc34dec4537078a0f3c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/f68d73e03100afc34dec4537078a0f3c/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ffb952ea49761f953f2af74eb7f53bce/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/ffb952ea49761f953f2af74eb7f53bce/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/45726999603ce81274af54b19ba04891/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/45726999603ce81274af54b19ba04891/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dfe185aed265821bc885bdb384754280/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dfe185aed265821bc885bdb384754280/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/974de7697713b183629b9beedbc3a435/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /home/bentleywagonjack/.gradle/caches/transforms-3/974de7697713b183629b9beedbc3a435/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/62d0a86d6b4b1af1f912c1a95c60a64b/transformed/core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/62d0a86d6b4b1af1f912c1a95c60a64b/transformed/core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dad9f73d4d2236c7bf4ce7971b63920c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/bentleywagonjack/.gradle/caches/transforms-3/dad9f73d4d2236c7bf4ce7971b63920c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f295e1303f68eb1605b94c8c1679cf6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/5f295e1303f68eb1605b94c8c1679cf6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/780644559bfb442bffe77650d414af18/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/780644559bfb442bffe77650d414af18/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/53371c8de975cfdc48f0c9916ff9d70b/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/bentleywagonjack/.gradle/caches/transforms-3/53371c8de975cfdc48f0c9916ff9d70b/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/80f5da65b461ba036fa5824d13a098f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/80f5da65b461ba036fa5824d13a098f3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/5e89fcfc281f261aacae3a3120128b20/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/5e89fcfc281f261aacae3a3120128b20/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/bff6530f5241d3b73be4c5ce2ca55c2a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/bff6530f5241d3b73be4c5ce2ca55c2a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1dae613d07960ab9c4a72eef4cc6b517/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/1dae613d07960ab9c4a72eef4cc6b517/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d163304de3335204fd2e204700929b2d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/d163304de3335204fd2e204700929b2d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2ceea482fb5ba10b19bfe4efcfd498d6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/2ceea482fb5ba10b19bfe4efcfd498d6/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/316eb63da4ec5494dffacab8e1ce4811/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/bentleywagonjack/.gradle/caches/transforms-3/316eb63da4ec5494dffacab8e1ce4811/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/bentleywagonjack/.gradle/caches/transforms-3/181f6cd1fc678a4d95ca7bd39374acce/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fd94bf89749527e0ceaad69dc81a0bff/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/fd94bf89749527e0ceaad69dc81a0bff/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:22:22-76
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.bentleywagonjack.apolloexpressive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.bentleywagonjack.apolloexpressive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

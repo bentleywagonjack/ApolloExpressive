@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bentleywagonjack.apolloexpressive"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+12-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:5:5-75
+12-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:5:22-72
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:6:5-76
+13-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:7:5-77
+14-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+15-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:8:5-92
+15-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:8:22-89
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:9:5-68
+16-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:10:5-81
+17-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:11:5-77
+18-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
+19-->[androidx.media3:media3-common:1.2.1] /home/bentleywagonjack/.gradle/caches/transforms-3/337232be812a1be8b01fc300c7a3f475/transformed/media3-common-1.2.1/AndroidManifest.xml:22:22-76
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+22        android:name="com.bentleywagonjack.apolloexpressive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.bentleywagonjack.apolloexpressive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:13:5-46:19
+28        android:name="com.bentleywagonjack.apolloexpressive.ApolloApp"
+28-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:14:9-34
+29        android:allowBackup="true"
+29-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:15:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.13.1] /home/bentleywagonjack/.gradle/caches/transforms-3/68bd356fb09a74333b416fe7a996c8a6/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+31        android:enableOnBackInvokedCallback="true"
+31-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:21:9-51
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:16:9-43
+34        android:label="@string/app_name"
+34-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:17:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:18:9-54
+36        android:supportsRtl="true"
+36-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:19:9-35
+37        android:theme="@style/Theme.ApolloExpressive" >
+37-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:20:9-54
+38
+39        <!-- Main Activity -->
+40        <activity
+40-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:24:9-32:20
+41            android:name="com.bentleywagonjack.apolloexpressive.MainActivity"
+41-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:25:13-41
+42            android:exported="true"
+42-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:26:13-36
+43            android:windowSoftInputMode="adjustResize" >
+43-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:27:13-55
+44            <intent-filter>
+44-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:28:13-31:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:29:17-69
+45-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:30:17-77
+47-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:30:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Playback Service -->
+52        <service
+52-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:35:9-44:19
+53            android:name="com.bentleywagonjack.apolloexpressive.service.MusicPlaybackService"
+53-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:36:13-57
+54            android:exported="true"
+54-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:37:13-36
+55            android:foregroundServiceType="mediaPlayback" >
+55-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:38:13-58
+56            <intent-filter>
+56-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:39:13-43:29
+57                <action android:name="androidx.media3.session.MediaSessionService" />
+57-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:40:17-86
+57-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:40:25-83
+58                <action android:name="androidx.media3.session.MediaLibraryService" />
+58-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:41:17-86
+58-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:41:25-83
+59                <action android:name="android.media.browse.MediaBrowserService" />
+59-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:42:17-83
+59-->/home/bentleywagonjack/ApolloExpressive/app/src/main/AndroidManifest.xml:42:25-80
+60            </intent-filter>
+61        </service>
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+65            android:authorities="com.bentleywagonjack.apolloexpressive.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.3.0] /home/bentleywagonjack/.gradle/caches/transforms-3/e0a9fcf88554bd4601ba839711d7903e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/bentleywagonjack/.gradle/caches/transforms-3/c4c4e5ac9efa07abee828777828f7590/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+76        </provider>
+77
+78        <uses-library
+78-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:23:9-25:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:24:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:25:13-37
+81        <uses-library
+81-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:26:9-28:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:27:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.2.0] /home/bentleywagonjack/.gradle/caches/transforms-3/91bb56d342939da3370787b4a9c060a6/transformed/window-1.2.0/AndroidManifest.xml:28:13-37
+84
+85        <service
+85-->[androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+86            android:name="androidx.room.MultiInstanceInvalidationService"
+86-->[androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+87            android:directBootAware="true"
+87-->[androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+88            android:exported="false" />
+88-->[androidx.room:room-runtime:2.6.1] /home/bentleywagonjack/.gradle/caches/transforms-3/81a55f45001d9fe5b321dc61d7aa312f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/bentleywagonjack/.gradle/caches/transforms-3/7aa77548e1d39358cfe9caa7a8296ef2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>

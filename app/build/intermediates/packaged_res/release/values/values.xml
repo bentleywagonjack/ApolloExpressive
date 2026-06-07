@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="albums">Albums</string>
+    <string name="app_name">ApolloExpressive</string>
+    <string name="artists">Artists</string>
+    <string name="library">Library</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="playlists">Playlists</string>
+    <style name="Theme.ApolloExpressive" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

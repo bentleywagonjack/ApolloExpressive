@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+mipmap ic_launcher
+mipmap ic_launcher_round
+string albums
+string app_name
+string artists
+string library
+string now_playing
+string playlists
+style Theme.ApolloExpressive
