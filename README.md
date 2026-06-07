@@ -34,3 +34,11 @@ Tactile scrubbing layout, favorites tracking (`Heart icon`), shuffle, and repeat
 - **Language:** Kotlin / Swift (Native Mobile) or React Native / Flutter (Cross-platform)
 - **UI Architecture:** Declarative layout components utilizing custom deep-palette token themes.
 - **Audio Core:** Low-latency localized audio player engine with dynamic background notification binding.
+
+---
+
+## 📞 Contact Me
+
+- **Contact Me** For any reason, the app is t working, etc etc.
+- **Where To Contact Me** Discord is "bentleywagonjack"
+- **Telegram** My telegram is t.me/maxiumoficial
